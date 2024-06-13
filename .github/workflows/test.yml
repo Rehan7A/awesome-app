@@ -13,13 +13,14 @@ jobs:
                 node-version: 20
 
            - name: Install dependencies
-             run: npm 
+             run: npm ci
              
            - name: Create build
              run: npm run build
             
            - name: Remove node modules
              run: rm -rf node_modules
+
            - uses: ./
            - uses: ./
              with :
