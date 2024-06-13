@@ -2,5 +2,5 @@ name: Rehan Practice JS Actions
 description: This action greets persons
 
 runs:
-  using: node20.14.0
+  using: node20
   main: src/index.js
