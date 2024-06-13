@@ -1,4 +1,4 @@
-const person = process.env.INPUTS_PERSON
+const person = process.env.INPUT_PERSON
 
 console.log(`Hello ${person}!`)
 
