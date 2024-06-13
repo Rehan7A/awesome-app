@@ -1,6 +1,6 @@
 const core = require("@actions/core") 
 
-const person = "Helo"
+const person = core.getInput("person")
 
 console.log(`Hello ${person}!`)
 
