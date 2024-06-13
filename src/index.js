@@ -1,4 +1,6 @@
-console.log("Hello World!")
+const person = process.env.INPUTS_PERSON
+
+console.log(`Hello ${person}!`)
 
 //Start OS
 //Dowload node
